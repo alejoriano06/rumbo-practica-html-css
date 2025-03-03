@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 120vh;
+    background: url(../img/bg-header.png);
+    background-size: cover;
+}
+
+ header nav{
+    display: flex;
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+header ul a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+
+ }
+ header ul a:hover{
+    border-bottom: 1px solid #ffffff;
+ }
+
+ #hero{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+ }
+
+ #hero h2{
+    color: yellow;
+    font-size: 60px;
+
+ }
+
+ #hero h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 80px;
+ }
+
+ #hero a{
+    background: yellow;
+    color: #000000;
+    font-size: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+ }
+
+ header a img{
+    transition: .5s;
+ }
+
+ header a img:hover{
+    transform: scale(1.1);
+ }
+
+
+ /* Estilos section planes */
+
+ #Planes{
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    padding: 100px 10%;
+ }
+
+ #Planes h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+ }
+
+ #Planes p{
+    font-size: 20px;
+ }
+
+ #Planes .fila{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+ }
+
+ #Planes .col_plan{
+    position: relative;
+    z-index: 1;
+ }
+
+ #Planes .col_plan h3{
+    color: yellow;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+ }
+
+#destinos{
+    background: url(../img/bg-destinos.png);
+    width: 100%;
+    text-align: center;
+    padding:  120px 10% 40px;;
+    background-size: cover;
+}
+
+#des tinos h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#destinos .fila{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+#destinos .col-destinos{
+    width: 50%;
+}
+
+#destinos h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* EStilos seccion contacto */
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    background: yellow;
+    padding: 120px 10% 110px;
+
+}
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#contacto p{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#contacto form{
+    width: 70%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+#contacto .fila{
+    display: flex;
+    justify-content: space-between;
+}
+#contacto input, #contacto select{
+    width: 220px;
+    padding: 8px;
+    margin: 10px 0;
+}
+#contacto button{
+    background: #727202;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 6px 30px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
